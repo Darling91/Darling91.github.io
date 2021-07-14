@@ -1,0 +1,1254 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Lato:wght@300&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+</style>
+
+
+html, body {
+	height: 100%;
+	text-decoration: none;
+
+}
+
+
+
+
+body{
+	margin: 0;
+
+	
+	min-width: 1280px;
+
+	background-color: #000015;
+}
+
+h1::selection{
+	background: #8A2387;
+}
+h2::selection{
+	background: #8A2387;
+}
+h3::selection{
+	background: #8A2387;
+}
+li::selection{
+	background: #8A2387;
+}
+span.Two::selection{
+	background: #8A2387;
+}
+a::selection{
+	background: #8A2387;
+}
+p::selection{
+	background: #8A2387;
+}
+img::selection{
+	background: #8A2387;
+}
+
+@keyframes hOne {
+	0% {
+		color: black;
+	}
+	50% {
+		color: white;
+	}
+	100% {
+		color: black;
+	}
+}
+
+
+@keyframes BgAnimation {
+
+	0% {
+		background-position: 0% 50%;
+	}
+	
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*@keyframes End {
+	0% {
+		width: 0%;
+	}
+	50% {
+		width: 1000%;
+	}
+	100% {
+		width: 0%;
+	}
+}*/
+
+@keyframes BarAnimationHTML {
+
+	0% {
+		width: 50%;
+	}
+	20% {
+		width: 52%;
+	}
+	40% {
+		width: 53.5%;
+	}
+	60% {
+		width: 52%;
+	}
+	80% {
+		width: 49%;
+	}
+	100% {
+		width: 50%;
+	}
+	
+}
+
+@keyframes BarAnimationCSS {
+
+	0% {
+		width: 60.5%;
+	}
+	20% {
+		width: 63%;
+	}
+	40% {
+		width: 62%;
+	}
+	60% {
+		width: 65%;
+	}
+	80% {
+		width: 64%;
+	}
+	100% {
+		width: 60.5%;
+	}
+	
+}
+
+@keyframes BarAnimationJavaScript {
+
+	0% {
+		width: 54%;
+	}
+	20% {
+		width: 50.5%;
+	}
+	40% {
+		width: 53%;
+	}
+	60% {
+		width: 51%;
+	}
+	80% {
+		width: 52%;
+	}
+	100% {
+		width: 54%;
+	}
+	
+}
+
+@keyframes BarAnimationFlexBox {
+
+	0% {
+		width: 55%;
+	}
+	20% {
+		width: 56.5%;
+	}
+	40% {
+		width: 56%;
+	}
+	60% {
+		width: 54%;
+	}
+	80% {
+		width: 54%;
+	}
+	100% {
+		width: 55%;
+	}
+	
+}
+
+@keyframes BarAnimationQAengineer {
+
+	0% {
+		width: 73%;
+	}
+	20% {
+		width: 70%;
+	}
+	40% {
+		width: 72%;
+	}
+	60% {
+		width: 70%;
+	}
+	80% {
+		width: 71%;
+	}
+	100% {
+		width: 73%;
+	}
+	
+}
+
+
+
+
+
+
+.container{
+	height: 100%;
+
+}
+
+
+
+.title{
+	margin-top: 15%;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: center;
+	height: 50%;
+	margin: 0;
+
+	background: linear-gradient(-45deg,#000000,#000000,#000000,#ffffff,#ffffff,#ffffff);
+	background-size: 400%, 400%;
+	animation: BgAnimation 10s ease infinite;
+	background-repeat: no-repeat;
+
+	padding-top: 17%;
+	padding-bottom: 12%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.DivScroll{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 5%;
+}
+
+.Scroll{
+	font-family: 'Press Start 2P', cursive;
+	/*color: #E9E4F0;*/
+	font-weight: lighter;
+
+	animation: hOne 2s ease-in-out infinite;
+}
+
+.ImgScroll{
+	width: 8%;
+	transition: 2s;
+	animation: Scroll 2s linear infinite;
+
+}
+
+h1{ 
+	font-family: 'Press Start 2P', cursive;
+	font-size: 600%;
+	font-weight: normal;
+	transition: all 5s ease 0s;
+	align-content: center;
+
+	animation: hOne 10s ease-in-out infinite;
+
+}
+
+
+
+
+.Me{
+
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#03001e,#7303c0,#ec38bc);
+	background-size: 200%, 200%;
+	animation: BgAnimation 5s ease infinite;
+	background-repeat: no-repeat;
+	
+	font-weight: normal;
+	
+}
+
+img{
+	width: 50%;
+	user-select: none;
+}
+
+	
+
+.MeContent{
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+}
+
+.MyTitle{
+	justify-content: center;
+	
+}
+
+.Content{
+	display: flex;
+
+	
+}
+
+h3{
+	color: white;
+	font-family: 'Jura', sans-serif;
+	size: 20%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: none;
+	font-size: 120%;
+
+}
+
+p{
+	color: white;
+	font-family: 'Jura', sans-serif;
+	size: 100%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	text-decoration: none;
+	font-size: 140%;
+	line-height: 2.5;
+}
+
+.h2Me{
+
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-weight: normal;
+	font-size: 600%;
+	
+
+	transform: translate(0px, 120%);
+	opacity: 0;
+	transition: all 20s ease 0s;
+
+
+}
+
+.EndAnim{
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	padding-right: 30%;
+	padding-left: 30%;
+	margin-bottom: 5%;
+}
+
+
+.EndOne{
+	padding: 0.25%;
+	background-color: white;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: End 0s ease infinite;
+}
+
+.SkillsUlli{
+	display:flex ;
+	font-size: 220%;
+}
+ 
+
+ @keyframes glaza {
+ 	0% {
+ 	  color: white;}
+ 	25% {
+ 		color: black ;}
+ 	50% {
+ 		color: white;}
+ 	75%{
+ 		color: black;}
+ 	100% {
+ 		color: white;}
+
+ }
+ .glaza {
+ 	animation: glaza 3s ease infinite;
+ 	animation-timing-function: cubic-bezier(50, 0, 0, 50);	
+ }
+
+
+ .SkillsUlli:hover {
+ 	transform: rotate(720deg); 
+ }
+
+
+.h2Me._active{
+	transform: translate(0px, 0px);
+	opacity: 1;
+}
+
+.Resp{
+	margin-top: 0%;
+
+	/*background: linear-gradient(-45deg,#1a2a6c,#b21f1f,#fdbb2d);
+	background-size: 500%, 500%;
+	animation: BgAnimation 5s ease infinite;
+	background-repeat: no-repeat;*/
+
+
+
+	background-image: url(Vanishing-Stripes.svg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+
+
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+}
+
+.RespTitleH2{
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+
+}
+
+.RespContent{
+	display: flex;
+}
+
+.RespUl{
+	font-family: 'Jura', sans-serif;
+	font-size:150%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 7%;
+	color: white;
+	line-height: 2.5;
+}
+
+.Skills{
+	/*margin-top: 0%;
+
+	background: linear-gradient(-45deg,#00416A,#799F0C,#FFE000);
+	background-size: 400%, 400%;
+	animation: BgAnimation 5s ease infinite;
+	background-repeat: no-repeat;*/
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+
+
+	--s: 25vmin;
+  --p: calc(var(--s) / 2);
+  --c1: #281C2F;
+  --c2: #371F2E;
+  --c3: #452729;
+  --bg: var(--c3);
+  --d: 4000ms;
+  --e: cubic-bezier(0.76, 0, 0.24, 1);
+  
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(45deg, var(--c1) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--c1) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--c2) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--c2) 75%);
+  background-size: var(--s) var(--s);
+  background-position: 
+    calc(var(--p) *  1) calc(var(--p) *  0), 
+    calc(var(--p) * -1) calc(var(--p) *  1), 
+    calc(var(--p) *  1) calc(var(--p) * -1), 
+    calc(var(--p) * -1) calc(var(--p) *  0);
+  animation: 
+    color var(--d) var(--e) infinite,
+    position var(--d) var(--e) infinite;
+}
+
+@keyframes color {
+  0%, 25% {
+    --bg: var(--c3);
+  }
+  26%, 50% {
+    --bg: var(--c1);
+  }
+  51%, 75% {
+    --bg: var(--c3);
+  }
+  76%, 100% {
+    --bg: var(--c2);
+  }
+}
+
+@keyframes position {
+  0% {
+    background-position: 
+      calc(var(--p) *  1) calc(var(--p) *  0), 
+      calc(var(--p) * -1) calc(var(--p) *  1), 
+      calc(var(--p) *  1) calc(var(--p) * -1), 
+      calc(var(--p) * -1) calc(var(--p) *  0);
+  }
+  25% {
+    background-position: 
+      calc(var(--p) *  1) calc(var(--p) *  4), 
+      calc(var(--p) * -1) calc(var(--p) *  5), 
+      calc(var(--p) *  1) calc(var(--p) *  3), 
+      calc(var(--p) * -1) calc(var(--p) *  4);
+  }
+  50% {
+    background-position: 
+      calc(var(--p) *  3) calc(var(--p) * 8), 
+      calc(var(--p) * -3) calc(var(--p) * 9), 
+      calc(var(--p) *  2) calc(var(--p) * 7), 
+      calc(var(--p) * -2) calc(var(--p) * 8);
+  }
+  75% {
+    background-position: 
+      calc(var(--p) *  3) calc(var(--p) * 12), 
+      calc(var(--p) * -3) calc(var(--p) * 13), 
+      calc(var(--p) *  2) calc(var(--p) * 11), 
+      calc(var(--p) * -2) calc(var(--p) * 12);
+  }
+  100% {    
+    background-position: 
+      calc(var(--p) *  5) calc(var(--p) * 16), 
+      calc(var(--p) * -5) calc(var(--p) * 17), 
+      calc(var(--p) *  5) calc(var(--p) * 15), 
+      calc(var(--p) * -5) calc(var(--p) * 16);
+  }
+
+}
+
+.SkillsTitle{
+	padding-top: 2%;
+
+}
+
+.SkillsTitleH2{
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.SkillsContent{
+	display: flex;
+}
+
+.SkillsUl{
+	font-family: 'Jura', sans-serif;
+	font-size:140%;
+	font-weight: normal;
+	padding-top: 0%;
+	padding-bottom: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
+	color: white;
+	line-height: 2.5;
+}
+
+
+.Hobbies{
+	margin-top: 0%;
+
+	/*background: linear-gradient(-45deg,#C02425,#F0CB35);
+	background-size: 500%, 500%;
+	animation: BgAnimation 5s ease infinite;
+	background-repeat: no-repeat;*/
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+	padding-top: 10%;
+	padding-bottom: 5%;
+
+
+	background-image: url(Rainbow-Vortex.svg);
+	background-repeat: no-repeat;
+	background-size: 250%;
+
+}
+
+
+
+.HobbiesTitleH2{
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.SkillsBar{
+
+	background: linear-gradient(-45deg,#000000,#000000,#000000,#000046,#000000,#000000,#000000);
+	background-size: 400%, 400%;
+	animation: BgAnimation 7s ease infinite;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 9%;
+}
+
+.BarTitle{}
+
+.BarTitleH2{
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.BarContent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.BarAnim{
+	width: 200%;
+}
+
+.BarName{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.BarHTML{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 50%;
+	border-radius: 5px;
+
+	animation: BarAnimationHTML 2s ease infinite;
+}
+
+.BarCSS{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 65%;
+	border-radius: 5px;
+
+	animation: BarAnimationCSS 1s ease infinite;
+}
+
+.BarJavaScript{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 50%;
+	border-radius: 5px;
+
+	animation: BarAnimationJavaScript 1s ease infinite;
+}
+
+.BarFlexBox{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 55%;
+	border-radius: 5px;
+
+	animation: BarAnimationFlexBox 1.5s ease infinite;
+}
+
+.BarQAengineer{
+	float: left;
+	padding: 0.25%;
+	background-color: #159957;
+	width: 70%;
+	border-radius: 5px;
+
+	animation: BarAnimationQAengineer 1.2s ease infinite;
+}
+
+
+
+.Contact{
+
+
+
+	background: url(topography.svg);
+	background-color: #49a09d;
+
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 3%;
+
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.ContactDetailes{
+	float: left;
+}
+
+.ContactContent{
+	display: flex;
+	justify-content: center;
+  	align-content: space-between;
+  	align-items: center;
+	flex-direction: column;
+}
+
+.ContactTitleH2{
+	font-family: 'Press Start 2P', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+	align-content: center;
+}
+
+.Butt{
+	border-radius: 50%;
+	margin-right: 2%;
+	margin-left: 2%;
+	margin-bottom: 10%;
+}
+
+.SocialNetwork{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+
+button.linkedin{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: url(linkedin.svg);
+	outline: none;
+}
+
+button.instagram{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: url(instagram.svg);
+	background-size: 103%;
+	background-position: center;
+	outline: none;
+}
+
+button.Telegram{
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	border: none;
+	background: url(telegram.svg);
+	outline: none;
+}
+
+
+
+form{
+	border-radius: 50%;
+	transition: 0.1s linear ;
+}
+
+form.l:hover{
+	box-shadow: 0 0 10px rgba(41, 72, 255,0.5);
+	transform: translateX(0px) translateY(-8px);
+	transition: 0.1s linear ;
+
+}
+
+form.G:hover{
+	box-shadow: 0 0 10px rgba(67, 67, 67,0.5);
+	transform: translateX(0px) translateY(-8px);
+	transition: 0.1s linear ;
+
+}
+
+form.T:hover{
+	box-shadow: 0 0 10px rgba(18, 194, 233,0.5);
+	transform: translateX(0px) translateY(-8px);
+	transition: 0.1s linear ;
+
+}
+
+p.Detailes{
+	font-size: 200%;
+	padding: 0;
+	color: #ECE9E6;
+}
+
+span.One{
+	user-select: none;
+}
+
+span.Two{
+	color: white;
+}
+
+
+
+				@media (max-width: 600px) {
+				.papa{
+			height: 100%;
+
+		}
+
+		/*.parallax{
+			height: 100%;
+		}*/
+
+		.title{
+			margin-top: 15%;
+			margin-bottom: 10%;
+			display: flex;
+			justify-content: center;
+			height: 50%;
+			margin: 0;
+
+			background: linear-gradient(-45deg,#000000,#000000,#000000,#ffffff,#ffffff,#ffffff);
+	    background-size: 400%, 400%;
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			padding-top: 45%;
+			padding-bottom: 45%;
+
+		}
+
+		.DivScroll{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 40%;
+			margin-bottom: 0%;
+			padding-top: 10%;
+}
+
+		img{
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		h1{ 
+		font-family: 'Press Start 2P', cursive;
+			font-size: 90px;
+			font-weight: normal;
+			padding-top: 20%;
+
+		}
+
+		.Me{
+
+			margin-top: 0%;
+
+			background: linear-gradient(-45deg,#03001e,#7303c0,#ec38bc);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+			
+		}
+
+
+			
+
+		.MeContent{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.MyTitle{
+			justify-content: center;
+			
+		}
+
+		.Content{
+			display: flex;
+			flex-direction: column-reverse;
+			margin-left: 5%;
+			margin-right: 5%;
+			
+			
+		}
+
+		h3{
+			color: white;
+			font-family: 'Jura', sans-serif;
+			size: 20%;
+			font-weight: normal;
+			padding-top: 5%;
+			padding-bottom: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			text-decoration: none;
+			font-size: 220%;
+			margin-left: 10%;
+			margin-right: 10%;
+
+		}
+
+		.h2Me{
+
+			font-family: 'Press Start 2P', cursive;
+			color: white;
+			font-weight: normal;
+			font-size: 500%;
+
+
+		}
+
+		.Resp{
+			margin-top: 0%;
+
+		background: linear-gradient(-45deg,#1a2a6c,#b21f1f,#fdbb2d);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		.RespTitleH2{
+			font-family: 'Press Start 2P', cursive;
+			font-weight: normal;
+			font-size: 400%;
+			color: white;
+
+		}
+
+		.RespContent{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.RespUl{
+			font-family: 'Jura', sans-serif;
+			font-size:220%;
+			font-weight: normal;
+			padding-top: 5%;
+			padding-bottom: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			color: white;
+			margin-left: 10%;
+			margin-right: 10%;
+
+		}
+
+		.Skills{
+			margin-top: 0%;
+
+			background: linear-gradient(-45deg,#281C2F,#371F2E,#452729);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			direction: flex;
+			flex-direction: column;
+
+		}
+
+		.SkillsTitle{
+			padding-top: 2%;
+
+		}
+
+		.SkillsTitleH2{
+			font-family: 'Press Start 2P', cursive;
+			font-weight: normal;
+			font-size: 400%;
+			color: white;
+		}
+
+		.SkillsContent{
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		.SkillsUl{
+			font-family: 'Jura', sans-serif;
+			font-size:220%;
+			font-weight: normal;
+			padding-top: 0%;
+			padding-bottom: 5%;
+			padding-left: 5%;
+			padding-right: 5%;
+			color: white;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+				.SkillsBar{
+
+			background: linear-gradient(-45deg,#000000,#2E1437);
+			background-size: 300%, 300%;
+			animation: BgAnimation 15s ease infinite;
+			background-repeat: no-repeat;
+
+			display: flex;
+			justify-content: center;
+		  	align-content: space-between;
+		  	align-items: center;
+			flex-direction: column;
+
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 9%;
+		}
+
+		.BarTitle{}
+
+		.BarTitleH2{
+		font-family: 'Press Start 2P', cursive;
+			color: white;
+			font-weight: normal;
+			font-size: 400%;
+			color: white;
+			align-content: center;
+		}
+
+		.BarContent{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.BarAnim{
+			width: 100%;
+		}
+
+		.BarName{
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
+		.BarHTML{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationHTML 2s ease infinite;
+		}
+
+		.BarCSS{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationCSS 1s ease infinite;
+		}
+
+		.BarJavaScript{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationJavaScript 1s ease infinite;
+		}
+
+		.BarFlexBox{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationFlexBox 1.5s ease infinite;
+		}
+
+		.BarQAengineer{
+			float: left;
+			padding: 0.25%;
+			background-color: #159957;
+			width: 70%;
+			border-radius: 5px;
+
+			animation: BarAnimationBootstrap 1.2s ease infinite;
+		}
+
+		.BarP{
+			font-size: 200%;
+		}
+
+		.SocialNetwork{
+			margin-top: 10%;
+			margin-bottom: 20%;
+		}
+}
+
+@media (min-width: 2560px) {
+	.Me{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.Resp{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.RespContent{
+		justify-content: center;
+	}
+	.Skills{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.SkillsBar{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	.title{
+		padding-top: 18%;
+		padding-bottom: 18%;
+	}
+	img{
+		width: 30%;
+	}
+}
+
+@media (max-width: 1440px) {
+	.title{
+			padding-top: 15%;
+			padding-bottom: 17%;
+
+		}
+}
+
+@media (max-width: 1024px) {
+	.title{
+			padding-top: 12%;
+			padding-bottom: 12%;
+
+		}
+}
+
+@media (max-width: 768px) {
+	.title{
+			padding-top: 50%;
+			padding-bottom: 50%;
+
+		}
+}
+
+@media (max-width: 540px) {
+	.title{
+			padding-top: 25%;
+			padding-bottom: 25%;
+
+		}
+}
+
+@media (max-width: 415px) {
+	.title{
+			padding-top: 40%;
+			padding-bottom: 45%;
+
+		}
+}
+
+@media (max-width: 412px) {
+	.title{
+			padding-top: 55%;
+			padding-bottom: 45%;
+
+		}
+}
+
+@media (max-width: 376px) {
+	.title{
+			padding-top: 70%;
+			padding-bottom: 60%;
+
+		}
+}
+
+@media (max-width: 375px) {
+	.title{
+			padding-top: 70%;
+			padding-bottom: 45%;
+
+		}
+}
+
+@media (max-width: 361px) {
+	.title{
+			padding-top: 50%;
+			padding-bottom: 45%;
+
+		}
+}
+
+@media (max-width: 320px) {
+	.title{
+			padding-top: 45%;
+			padding-bottom: 45%;
+	}
+}
+
+
